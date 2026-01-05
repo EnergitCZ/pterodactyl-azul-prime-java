@@ -1,5 +1,5 @@
-# Use the official Azul Platform Prime Debian image
-FROM azul/prime-debian:17
+# Use the official Azul Platform Prime Ubuntu image
+FROM azul/prime-ubuntu:21
 
 # Set maintainer info
 LABEL author="Energit" maintainer="energitmain@gmail.com"
