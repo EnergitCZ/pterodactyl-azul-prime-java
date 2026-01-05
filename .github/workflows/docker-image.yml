@@ -27,4 +27,4 @@ jobs:
           context: ./app21
           file: ./app21/Dockerfile
           push: true
-          tags: ghcr.io/EnergitCZ/azul-prime-ptero-21:latest
+          tags: ghcr.io/energitcz/azul-prime-ptero-21:latest
