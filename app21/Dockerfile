@@ -4,6 +4,8 @@ FROM azul/prime-ubuntu:21
 # Set maintainer info
 LABEL author="Energit" maintainer="energitmain@gmail.com"
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 # Install dependencies required for Pterodactyl and common Minecraft tools
 RUN apt-get update && \
     apt-get install -y curl ca-certificates openssl git tar sqlite3 fontconfig tzdata iproute2 libfreetype6 && \
